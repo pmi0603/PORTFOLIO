@@ -26,7 +26,7 @@ function About() {
 </div>
 
             <div id="contact">
-            <div id="phone">
+<div id="phone">
     <FontAwesomeIcon icon={faPhone} id="phone_icon" />
     <a href="tel://+91 7973745181">7973745181</a>
 </div>
