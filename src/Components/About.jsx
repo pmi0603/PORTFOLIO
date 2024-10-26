@@ -1,9 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Portfolio_styling.css'
-import { Container } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faInstagram  } from '@fortawesome/free-brands-svg-icons'
+import './Portfolio_styling.css';
+import { Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
+
 
 function About() {
     return (
@@ -24,24 +26,22 @@ function About() {
 </div>
 
             <div id="contact">
-    <div id="phone">
-    <i class="fa-solid fa-phone" id="phone_icon"></i>
-        <a href="tel://+91 7973745181">7973745181</a>
-    </div>
+            <div id="phone">
+    <FontAwesomeIcon icon={faPhone} id="phone_icon" />
+    <a href="tel://+91 7973745181">7973745181</a>
+</div>
 
-
-        {/* <FontAwesomeIcon icon={faEnvelope} /> */}
-      <div id="mail">
-        <i class="fa-solid fa-envelope" id="mail_icon"></i>
-        <a href="mailto:pm622244@gmail.com">PrashantMishra</a>
- </div>
+<div id="mail">
+    <FontAwesomeIcon icon={faEnvelope} id="mail_icon" />
+    <a href="mailto:pm622244@gmail.com">PrashantMishra</a>
+</div>
     
 
-        {/* <FontAwesomeIcon icon={faFilePdf} /> */}
-      <div id="resume">
-        <i class="fa-solid fa-download" id="resume_icon"></i>
-        <a href={"/images/PrashantMishra.pdf"} download>Resume</a>
-    </div>
+    
+<div id="resume">
+    <FontAwesomeIcon icon={faDownload} id="resume_icon" />
+    <a href={"/images/PrashantMishra.pdf"} download>Resume</a>
+</div>
     
 </div>
 
