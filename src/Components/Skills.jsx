@@ -31,7 +31,7 @@ function Skills() {
                      <p className="skill-name">CSS</p>
                  </div>
                  <div className="skill-item">
-                     <img src="/images/js.jpeg" alt="JavaScript" className="skill-img" loading="lazy"/>
+                     <img src="/images/JS.jpeg" alt="JavaScript" className="skill-img" loading="lazy"/>
                      <p className="skill-name">JavaScript</p>
                  </div>
                  <div className="skill-item">
@@ -43,7 +43,7 @@ function Skills() {
                      <p className="skill-name">Express.js</p>
                  </div>
                  <div className="skill-item">
-                     <img src="/images/MYSQL-Logo.jpg" alt="MySql" className="skill-img" />
+                     <img src="/images/MySQL-Logo.jpg" alt="MySql" className="skill-img" />
                      <p className="skill-name">MySQL</p>
                  </div>
                  <div className="skill-item">
