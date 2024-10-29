@@ -51,7 +51,7 @@
 #heading {
     margin-top: 2%;
     width: 100%;
-    height: 37.5em;
+    height: 50.5em;
     background-color: #000000;   /*8758ff*/
     padding: 9em 12em;
     
@@ -74,7 +74,7 @@
 }
 
 #heading-content {
-    transition: all 3s ease-in-out;
+    transition: all 1s ease-in-out;
     padding-left: 0; /* Initial padding */
     margin-left: 0;  /* Initial margin */
 }
