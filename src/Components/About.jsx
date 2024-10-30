@@ -33,7 +33,7 @@ function About() {
 
 <div id="mail">
     <FontAwesomeIcon icon={faEnvelope} id="mail_icon" />
-    <a href="mailto:pm622244@gmail.com" target="_blank" rel="noopener noreferrer">PrashantMishra</a>
+    <a href="mailto:prashantmishra06032003@gmail.com" target="_blank" rel="noopener noreferrer">PrashantMishra</a>
 </div>
     
 
