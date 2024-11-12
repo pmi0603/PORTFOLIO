@@ -268,8 +268,7 @@
 
 .skill-item:hover .skill-name {
     opacity: 1;
-}
-
+} 
 
 
 #social {
@@ -309,8 +308,6 @@
     transform: scale(1.1);
 }
 
-
-
 .tooltip {
     position: absolute;
     background-color: #000;
@@ -319,4 +316,91 @@
     border-radius: 5px;
     font-size: 12px;
     transform: translateX(10px);
+}
+/* 
+.project_container{
+    background-color: #000000;
+    height:50.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.project_container a{
+    text-decoration: none;
+    color:#ffffff;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.project_links a{
+    margin-top: 2em;
+    
+}
+
+.project_links{
+    margin-top: 2em;
+    position: relative;
+    margin: 1em;
+}
+
+.project_img{
+    width:15%;
+    height:50%;
+    border-radius: 50%;
+    margin-top:2em;
+    margin-left: 2em;
+}
+
+.project_img:hover{
+    transform:scale(1.1);
+}
+.project_links:hover .project_img{
+  color:#FF5858
+} */
+/* Project Section */
+.project_container {
+    background-color: #000000;
+    height:50.5em;
+    padding: 2em 0; /* Add padding to create space around the project section */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em; /* Space between project items */
+}
+
+.project_link {
+    text-align: center;
+    width: 8em; /* Ensure consistent width */
+}
+
+.project_img {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    margin-bottom: 0.5em; /* Space between image and project name */
+    transition: transform 0.5s;
+}
+
+/* Hover effect for images */
+.project_img:hover {
+    transform: scale(1.1);
+}
+
+/* Link styles inside the project section */
+.project_link a {
+    display: block; /* Ensure the project name appears below the image */
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Default text color is white */
+    font-size: 1.2em;
+    margin-top: 0.5em; /* Space between image and project name */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for project links */
+.project_link a:hover {
+    color: #FF5858; /* Text turns red on hover */
 }

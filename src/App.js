@@ -5,7 +5,7 @@ import './Components/Portfolio_styling.css';
 import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
-
+import Project from './Components/Project';
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/skills">Skills</Link></li>
-                         
+                            <li><Link to="/project">Project</Link></li>
                         </ul>
                     </nav>
                 </header>
@@ -26,7 +26,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/skills" element={<Skills />} />
-                    
+                        <Route path="/project" element={<Project />} />
                     </Routes>
                 </main>
             </div>
