@@ -40,7 +40,7 @@ function About() {
     
 <div id="resume">
     <FontAwesomeIcon icon={faDownload} id="resume_icon" />
-    <a href={"/images/Prashant_Mishra.pdf"} download>Resume</a>
+    <a href={"/images/PrashantMishra.pdf"} download>Resume</a>
 </div>
     
 </div>
