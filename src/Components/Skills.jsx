@@ -5,6 +5,7 @@ function Skills() {
     return (        
 
         <section id="skills">
+            <h4 className="skill_heading">SKILLS:</h4>
              <div className="skill-container">
                  <div className="skill-item">
                      <img src="/images/letter-c.png" alt="C" className="skill-img" loading="lazy"/>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Portfolio_styling.css';
 
 
+
 function Home() {
     const [greeting, setGreeting] = useState('');
 
